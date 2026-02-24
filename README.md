@@ -23,30 +23,10 @@ npm install
 Папка node_modules
 Файл package-lock.json
 
-3.3 Проверьте файл .env
-Убедитесь, что в папке backend есть файл .env с таким содержимым:
-env
-PORT=5000
-JWT_SECRET=your-secret-key-for-jwt-tokens
-DB_PATH=database
-DB_FILE=db.json
-DATA_SOURCE=api
-TWELVEDATA_API_KEY=250526dbb21b4e2aa7d495445633e1fb
-3.4 Запустите сервер
+3.3 Запустите сервер
 npm start
 или для разработки (автоперезагрузка при изменениях)
 npm run dev
-
-3.5 Что вы должны увидеть
-🚀 Server running on port 5000
-📁 Database: G:\Project\InvestBuy\backend\database\db.json
-📡 Data source: api
-🔑 Twelve Data API: ✓ Present
-⏱️  Cache duration: 5 minutes
-=================================
-🔗 Test: http://localhost:5000/api/test
-🔗 Stocks: http://localhost:5000/api/stocks
-🔗 Status: http://localhost:5000/api/status
 
 ВАЖНО Этот терминал должен оставаться открытым всё время работы сайта
 
