@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="?attr/cardBackgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AAPL"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="?attr/textColorPrimary"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple Inc."
+                android:textSize="14sp"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Количество:"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="10 шт."
+                android:textSize="14sp"
+                android:textColor="?attr/textColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Цена:"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="$175.50"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Всего:"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="$1,755.00"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Прибыль:"
+                android:textSize="14sp"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:id="@+id/tvProfit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="+$23.00"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_margin="4dp"/>
+        </GridLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

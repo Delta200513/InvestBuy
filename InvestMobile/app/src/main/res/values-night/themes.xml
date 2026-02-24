@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.InvestMobile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Темная тема -->
+        <item name="colorPrimary">#1a2634</item>
+        <item name="colorPrimaryVariant">#0f1722</item>
+        <item name="colorOnPrimary">#e0e0e0</item>
+        <item name="colorSecondary">#3498db</item>
+        <item name="colorSecondaryVariant">#2980b9</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:statusBarColor">#0f1722</item>
+        <item name="android:windowBackground">#121212</item>
+
+        <!-- Цвета для фонов -->
+        <item name="backgroundColor">#121212</item>
+        <item name="cardBackgroundColor">#1e1e1e</item>
+        <item name="textColorPrimary">#e0e0e0</item>
+        <item name="textColorSecondary">#a0a0a0</item>
+    </style>
+</resources>

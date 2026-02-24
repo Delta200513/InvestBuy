@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "id": "1771077232305",
+      "email": "kudrash13@gmail.com",
+      "password": "$2a$10$IVV6pw8V44354KWmeF7of.y4c7DYVgMZ6eGFALiCRdu/BBCw93RbC",
+      "name": "Fall Data",
+      "avatar": null,
+      "budget": 98311.46,
+      "createdAt": "2026-02-14T13:53:52.305Z"
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 172.54,
+      "change": -2.96,
+      "changePercent": -1.69,
+      "high": 184.13,
+      "low": 173.09,
+      "open": 170.63,
+      "previousClose": 175.5
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "price": 134.89,
+      "change": -3.31,
+      "changePercent": -2.4,
+      "high": 148.07,
+      "low": 130.18,
+      "open": 135.59,
+      "previousClose": 138.2
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 383,
+      "change": 4.15,
+      "changePercent": 1.1,
+      "high": 387.33,
+      "low": 374.45,
+      "open": 375.12,
+      "previousClose": 378.85
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc.",
+      "price": 142.79,
+      "change": -2.51,
+      "changePercent": -1.73,
+      "high": 153.93,
+      "low": 141.07,
+      "open": 144.19,
+      "previousClose": 145.3
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "price": 241.89,
+      "change": -3.71,
+      "changePercent": -1.51,
+      "high": 248.92,
+      "low": 244.09,
+      "open": 242.84,
+      "previousClose": 245.6
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "price": 326.55,
+      "change": 1.15,
+      "changePercent": 0.35,
+      "high": 331.32,
+      "low": 318.17,
+      "open": 324.97,
+      "previousClose": 325.4
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix Inc.",
+      "price": 484.61,
+      "change": -1.29,
+      "changePercent": -0.27,
+      "high": 489.04,
+      "low": 482.84,
+      "open": 485.61,
+      "previousClose": 485.9
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 784.53,
+      "change": -0.77,
+      "changePercent": -0.1,
+      "high": 793.61,
+      "low": 777.22,
+      "open": 784.46,
+      "previousClose": 785.3
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices Inc.",
+      "price": 161.9,
+      "change": -3.9,
+      "changePercent": -2.35,
+      "high": 173.83,
+      "low": 160.78,
+      "open": 163.03,
+      "previousClose": 165.8
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "price": 39.37,
+      "change": -4.13,
+      "changePercent": -9.49,
+      "high": 52.83,
+      "low": 39.6,
+      "open": 39.28,
+      "previousClose": 43.5
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1771078532798",
+      "userId": "1771077232305",
+      "symbol": "AAPL",
+      "quantity": 1,
+      "price": 171.67,
+      "type": "buy",
+      "date": "2026-02-14T14:15:32.798Z"
+    },
+    {
+      "id": "1771078560598",
+      "userId": "1771077232305",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 136.33,
+      "type": "buy",
+      "date": "2026-02-14T14:16:00.598Z"
+    },
+    {
+      "id": "1771078574878",
+      "userId": "1771077232305",
+      "symbol": "AAPL",
+      "quantity": 4,
+      "price": 178.14,
+      "type": "buy",
+      "date": "2026-02-14T14:16:14.878Z"
+    },
+    {
+      "id": "1771080275765",
+      "userId": "1771077232305",
+      "symbol": "TSLA",
+      "quantity": 1,
+      "price": 245.17,
+      "type": "buy",
+      "date": "2026-02-14T14:44:35.765Z"
+    },
+    {
+      "id": "1771080282762",
+      "userId": "1771077232305",
+      "symbol": "AAPL",
+      "quantity": 1,
+      "price": 176.14,
+      "type": "buy",
+      "date": "2026-02-14T14:44:42.762Z"
+    },
+    {
+      "id": "1771087616052",
+      "userId": "1771077232305",
+      "symbol": "TSLA",
+      "quantity": 1,
+      "price": 246.67,
+      "type": "buy",
+      "date": "2026-02-14T16:46:56.052Z"
+    }
+  ],
+  "portfolios": [
+    {
+      "userId": "1771077232305",
+      "stocks": [
+        {
+          "symbol": "AAPL",
+          "quantity": 6,
+          "purchasePrice": 176.73,
+          "purchaseDate": "2026-02-14T14:15:32.798Z"
+        },
+        {
+          "symbol": "GOOGL",
+          "quantity": 1,
+          "purchasePrice": 136.33,
+          "purchaseDate": "2026-02-14T14:16:00.598Z"
+        },
+        {
+          "symbol": "TSLA",
+          "quantity": 2,
+          "purchasePrice": 245.92,
+          "purchaseDate": "2026-02-14T14:44:35.765Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "users": [
+    {
+      "id": "1771074577224",
+      "email": "kudrash13@gmail.com",
+      "password": "$2a$10$BjvDcvmjRGm0zbQVQF2r8uGyu6tfV5MbXaWglYMc4NSHY3oZvIEce",
+      "name": "Андрей Кудряшов",
+      "avatar": null,
+      "budget": 11181650.036070798,
+      "createdAt": "2026-02-14T13:09:37.224Z"
+    },
+    {
+      "id": "1771868841642",
+      "email": "andre200513@outlook.com",
+      "password": "$2a$10$2Mt7WFqmPyNUTvUH1KdsUOKEsdd9y5vf5n4fuTEcyGRMTHTbr6IXK",
+      "name": "Андрей Кудряшов",
+      "avatar": null,
+      "budget": 100000,
+      "createdAt": "2026-02-23T17:47:21.642Z"
+    }
+  ],
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 266.17999,
+      "change": 1.60001,
+      "changePercent": 0.60473437,
+      "high": 269.42999,
+      "low": 263.38,
+      "open": 263.48999,
+      "previousClose": 264.57999
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "price": 311.48999,
+      "change": -3.49002,
+      "changePercent": -1.10801,
+      "high": 319.51999,
+      "low": 309.87,
+      "open": 319.049988,
+      "previousClose": 314.98001
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "price": 384.47,
+      "change": -12.76001,
+      "changePercent": -3.21225,
+      "high": 395.35999,
+      "low": 383.10001,
+      "open": 395,
+      "previousClose": 397.23001
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 205.27,
+      "change": -4.84,
+      "changePercent": -2.30355,
+      "high": 208.42999,
+      "low": 203.11,
+      "open": 208.10001,
+      "previousClose": 210.11
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 399.82999,
+      "change": -11.99002,
+      "changePercent": -2.91147,
+      "high": 407.70001,
+      "low": 394.040009,
+      "open": 407.29001,
+      "previousClose": 411.82001
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms Inc Class A",
+      "price": 637.25,
+      "change": -18.40997,
+      "changePercent": -2.80785,
+      "high": 657.70001,
+      "low": 636,
+      "open": 652.53998,
+      "previousClose": 655.65997
+    },
+    {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "price": 76.019997,
+      "change": -2.65,
+      "changePercent": -3.3685,
+      "high": 77.83,
+      "low": 75.010002,
+      "open": 77.79,
+      "previousClose": 78.67
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 191.55,
+      "change": 1.73,
+      "changePercent": 0.91138745,
+      "high": 193.95,
+      "low": 189.58,
+      "open": 191.39999,
+      "previousClose": 189.82001
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices Inc.",
+      "price": 165.46,
+      "change": -0.34,
+      "changePercent": -0.21,
+      "high": 167.46,
+      "low": 164.14,
+      "open": 164.97,
+      "previousClose": 165.8
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "price": 43.61,
+      "change": 0.03,
+      "changePercent": 0.06,
+      "high": 44.02,
+      "low": 43.14,
+      "open": 43.36,
+      "previousClose": 43.58
+    },
+    {
+      "symbol": "IBM",
+      "name": "International Business Machines",
+      "price": 244.73,
+      "change": -0.65,
+      "changePercent": -0.26,
+      "high": 247.83,
+      "low": 242.93,
+      "open": 244.15,
+      "previousClose": 245.38
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 139.06,
+      "change": 0.21,
+      "changePercent": 0.15,
+      "high": 140.24,
+      "low": 137.46,
+      "open": 138.16,
+      "previousClose": 138.85
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "price": 296.29,
+      "change": 0.68,
+      "changePercent": 0.23,
+      "high": 298.57,
+      "low": 292.65,
+      "open": 294.13,
+      "previousClose": 295.61
+    },
+    {
+      "symbol": "V",
+      "name": "Visa Inc.",
+      "price": 310.03,
+      "change": -0.59,
+      "changePercent": -0.19,
+      "high": 313.73,
+      "low": 307.51,
+      "open": 309.07,
+      "previousClose": 310.62
+    },
+    {
+      "symbol": "WMT",
+      "name": "Walmart Inc.",
+      "price": 125.78,
+      "change": 0.34,
+      "changePercent": 0.27,
+      "high": 126.69,
+      "low": 124.19,
+      "open": 124.81,
+      "previousClose": 125.44
+    },
+    {
+      "symbol": "DIS",
+      "name": "The Walt Disney Company",
+      "price": 103.84,
+      "change": 0.38,
+      "changePercent": 0.37,
+      "high": 104.49,
+      "low": 102.43,
+      "open": 102.94,
+      "previousClose": 103.46
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1771074606635",
+      "userId": "1771074577224",
+      "symbol": "GOOGL",
+      "quantity": 3,
+      "price": 266.20501801344557,
+      "type": "buy",
+      "date": "2026-02-14T13:10:06.635Z"
+    },
+    {
+      "id": "1771075362476",
+      "userId": "1771074577224",
+      "symbol": "MSFT",
+      "quantity": 1,
+      "price": 184.6699851615812,
+      "type": "buy",
+      "date": "2026-02-14T13:22:42.476Z"
+    },
+    {
+      "id": "1771075481597",
+      "userId": "1771074577224",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 305.72,
+      "type": "sell",
+      "date": "2026-02-14T13:24:41.597Z"
+    },
+    {
+      "id": "1771075556775",
+      "userId": "1771074577224",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 305.72,
+      "type": "sell",
+      "date": "2026-02-14T13:25:56.775Z"
+    },
+    {
+      "id": "1771859248438",
+      "userId": "1771074577224",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 266.21,
+      "type": "sell",
+      "date": "2026-02-23T15:07:28.438Z"
+    },
+    {
+      "id": "1771859252100",
+      "userId": "1771074577224",
+      "symbol": "MSFT",
+      "quantity": 1,
+      "price": 184.67,
+      "type": "sell",
+      "date": "2026-02-23T15:07:32.100Z"
+    },
+    {
+      "id": "1771862222141",
+      "userId": "1771074577224",
+      "symbol": "WMT",
+      "quantity": 1,
+      "price": 162.95,
+      "type": "buy",
+      "date": "2026-02-23T15:57:02.141Z"
+    },
+    {
+      "id": "1771862234727",
+      "userId": "1771074577224",
+      "symbol": "AAPL",
+      "quantity": 1,
+      "price": 178.23,
+      "type": "buy",
+      "date": "2026-02-23T15:57:14.727Z"
+    },
+    {
+      "id": "1771870246578",
+      "userId": "1771074577224",
+      "symbol": "WMT",
+      "quantity": 1,
+      "price": 125.44,
+      "type": "sell",
+      "date": "2026-02-23T18:10:46.578Z"
+    },
+    {
+      "id": "1771870250056",
+      "userId": "1771074577224",
+      "symbol": "AAPL",
+      "quantity": 1,
+      "price": 267.03,
+      "type": "sell",
+      "date": "2026-02-23T18:10:50.056Z"
+    },
+    {
+      "id": "1771928079696",
+      "userId": "1771074577224",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 311.48999,
+      "type": "buy",
+      "date": "2026-02-24T10:14:39.696Z"
+    },
+    {
+      "id": "1771928089015",
+      "userId": "1771074577224",
+      "symbol": "AAPL",
+      "quantity": 110,
+      "price": 266.17999,
+      "type": "buy",
+      "date": "2026-02-24T10:14:49.015Z"
+    }
+  ],
+  "portfolios": [
+    {
+      "userId": "1771074577224",
+      "stocks": [
+        {
+          "symbol": "GOOGL",
+          "quantity": 1,
+          "purchasePrice": 311.48999,
+          "purchaseDate": "2026-02-24T10:14:39.696Z"
+        },
+        {
+          "symbol": "AAPL",
+          "quantity": 110,
+          "purchasePrice": 266.17999,
+          "purchaseDate": "2026-02-24T10:14:49.015Z"
+        }
+      ]
+    },
+    {
+      "userId": "1771868841642",
+      "stocks": []
+    }
+  ],
+  "lastStockUpdate": "2026-02-24T10:11:50.624Z"
+}

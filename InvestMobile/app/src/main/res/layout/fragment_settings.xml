@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Настройки"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/backgroundColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Карточка с информацией о пользователе -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="?attr/cardBackgroundColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Профиль"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="?attr/textColorPrimary"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Блок с аватаркой и именем -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp">
+
+                        <!-- Аватарка (кликабельная) -->
+                        <ImageView
+                            android:id="@+id/ivAvatar"
+                            android:layout_width="72dp"
+                            android:layout_height="72dp"
+                            android:src="@android:drawable/sym_def_app_icon"
+                            android:layout_marginEnd="16dp"
+                            android:scaleType="centerCrop"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:background="@drawable/avatar_background"
+                            android:padding="2dp"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tvName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Имя пользователя"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:textColor="?attr/textColorPrimary" />
+
+                            <TextView
+                                android:id="@+id/tvEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="email@example.com"
+                                android:textSize="14sp"
+                                android:textColor="?attr/textColorSecondary"
+                                android:layout_marginTop="4dp" />
+
+                            <TextView
+                                android:id="@+id/tvChangeAvatar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Нажмите на аватарку чтобы изменить"
+                                android:textSize="12sp"
+                                android:textColor="#3498db"
+                                android:layout_marginTop="4dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/textColorSecondary"
+                        android:alpha="0.2"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="8dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата регистрации:"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorSecondary" />
+
+                        <TextView
+                            android:id="@+id/tvRegistrationDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="01.01.2024"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorPrimary"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Карточка с настройками приложения -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="?attr/cardBackgroundColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Настройки приложения"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="?attr/textColorPrimary"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Темная тема -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Темная тема"
+                            android:textSize="16sp"
+                            android:textColor="?attr/textColorPrimary" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/switchTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:thumbTint="#3498db"
+                            android:trackTint="#95a5a6" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/textColorSecondary"
+                        android:alpha="0.2" />
+
+                    <!-- Уведомления -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Уведомления"
+                            android:textSize="16sp"
+                            android:textColor="?attr/textColorPrimary" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/switchNotifications"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:thumbTint="#3498db"
+                            android:trackTint="#95a5a6" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="?attr/textColorSecondary"
+                        android:alpha="0.2" />
+
+                    <!-- Язык -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Язык"
+                            android:textSize="16sp"
+                            android:textColor="?attr/textColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tvLanguage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Русский"
+                            android:textSize="16sp"
+                            android:textColor="#3498db"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:paddingHorizontal="8dp"
+                            android:paddingVertical="4dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Карточка с информацией о приложении -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="?attr/cardBackgroundColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="О приложении"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="?attr/textColorPrimary"
+                        android:layout_marginBottom="16dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="4dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Версия:"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorSecondary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1.0.0"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorPrimary"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="4dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Разработчик:"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorSecondary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="InvestMobile Team"
+                            android:textSize="14sp"
+                            android:textColor="?attr/textColorPrimary" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="InvestMobile - приложение для обучения инвестициям с виртуальным портфелем"
+                        android:textSize="14sp"
+                        android:textColor="?attr/textColorSecondary"
+                        android:layout_marginTop="12dp"
+                        android:lineSpacingExtra="4dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Карточка с полезными ссылками -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="?attr/cardBackgroundColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Полезные ссылки"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="?attr/textColorPrimary"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:id="@+id/tvPrivacyPolicy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Политика конфиденциальности"
+                        android:textSize="14sp"
+                        android:textColor="#3498db"
+                        android:paddingVertical="8dp"
+                        android:background="?android:attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:id="@+id/tvTermsOfUse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Условия использования"
+                        android:textSize="14sp"
+                        android:textColor="#3498db"
+                        android:paddingVertical="8dp"
+                        android:background="?android:attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:id="@+id/tvSupport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Служба поддержки"
+                        android:textSize="14sp"
+                        android:textColor="#3498db"
+                        android:paddingVertical="8dp"
+                        android:background="?android:attr/selectableItemBackground"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Кнопка выхода -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Выйти из аккаунта"
+                android:backgroundTint="#e74c3c"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

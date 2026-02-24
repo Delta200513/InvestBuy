@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📈 InvestMobile"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="?attr/textColorPrimary"
+            android:layout_marginBottom="32dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="?attr/textColorPrimary"
+            android:textColorHint="?attr/textColorSecondary"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="?attr/textColorPrimary"
+            android:textColorHint="?attr/textColorSecondary"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="?attr/textColorPrimary"
+            android:textColorHint="?attr/textColorSecondary"/>
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Подтверждение пароля"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="?attr/textColorPrimary"
+            android:textColorHint="?attr/textColorSecondary"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зарегистрироваться"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="#27ae60"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Уже есть аккаунт? Войти"
+            android:textSize="14sp"
+            android:textColor="#3498db"
+            android:layout_marginTop="24dp"
+            android:padding="8dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
